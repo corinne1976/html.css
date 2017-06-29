@@ -1,0 +1,11 @@
+h1, h3, div,a,p,span,section{
+  text-align: center;
+  border: 1px solid orchid;
+  background-color: lightblue;
+}
+.block{/* on modifie laffichage normal de la balise qui est de type INLINE pour qu'elle devienne comme une balise block*/
+  display: block;
+}
+.inline{/* on modifie laffichage normal de la balise div qui est de type block pour qu'elle devienne comme une balise inline*/
+  display: inline;
+}
