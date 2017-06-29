@@ -1,0 +1,45 @@
+body{
+    /*font-size: 25px;taille de police 25 pixel*/
+}
+h1{
+    background-color: darkslategray;
+    color: white;
+}
+section p{
+    color: red; /*tous les <p>à l'interieur de la balise <section>*/
+}
+section p:first-child{
+    color: darkblue;/*premier <p>*/
+}
+section p:last-child{
+    color:lightgreen;
+}
+section p:nth-child(even){
+    color:lightblue;/*les <p> pairs*/
+  }
+section p:nth-child(odd){
+    color: brown;/*les <p> impairs*/
+}
+section p:nth-child(3), section p:nth-child(10){
+    color: orange /*les <p> et 10*/
+}
+.zone1{/*class donc avant son nom je mets un .*/
+      color:#008080;
+  }
+.line{
+      color:#00ff00;
+}
+#zone3{/*id donc avant son nom je mets un #*/
+      color:#f5deb3
+  }
+#zone3:after{/*rajouter le contenu après l'id zone3 #*/
+      content: "rajouté après";
+}
+#zone3::before{/*rrajouter le contenu avant l'id zone 3*/
+     content: "rajouté avant";
+     background-color: cyan;
+}
+li:nth-child(2){
+      background-color: darkred;
+      color: white;
+}
