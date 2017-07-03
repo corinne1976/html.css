@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+ul{/*sélections de toutes les liste <ul>*/
+  list-style: none;/*suppression des puces des listes*/
+  float: left;/*effet flottant a gauche*/
+  margin: 0;/*marges exterieures*/
+  padding: 0;/*marges interieurs*/
+  }
+.left, .right{
+  margin-top: 5em;/*mettre une marge en haut*/
+}
+.left ul{
+  margin: 3.2em 0 0 0;/*sélection class left our qu'elle descende*/
+}
+.left ul li{/*tous les <li> de la liste <ul> ayant la class left*/
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 1em;
+  width: 10em;
+}
+.left ul li:first-child{/*premier <li> de la liste <ul> aaynt la classe left */
+  border-top: 1px solid #ccc;
+}
+/*fin de la première colonne*/
+ul.liste li{/*tous les <li> de la liste ul ayant la class left*/
+  border-left: 1px solid #ccc;
+}
+.right .change ul li{/*tous les li de la liste ul yaant la class change*/
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  width: 10em;
+  text-align: center;
+}
+.right .change ul li:first-child{/*premier de la liste ul ayant la class change, elle meme enfant de la class right*/
+    background-color: #5d5d5d;
+    color: #fff;
+    font-weight: bold;/*style de police gras*/
+}
+.right .change ul li:last-child{/*dernier li de la liste ul ayant la class change elle meme enfant d'une classe right */
+    border-bottom: 1px solid #ccc;
+}
+/*effets de transition au survl de la souris*/
+.right .change ul:hover{/*au survol de la souris (pseudo class hover)on sélectione la liste ul ayant la class change elle meme enfant de la classe right*/
+    background: linear-gradient(#d5d5d5, #8a8a8a);/*dégradé de couleur*/
+    transform: scale(1.4);/*echelle zoom*/
+    transition-duration 2s;/*durée de l'effet transition*/
+}
+.right .change ul:hover li:first-child{
+/*au survol de la souris on sélectione le premier li de la liste ul ayant la  class .change elle meme de la class right*/
+    background-color: #000;
+}
