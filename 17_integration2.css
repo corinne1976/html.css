@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+    margin: 10px 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.right{
+    float: right;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+ul{
+
+}
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
