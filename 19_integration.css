@@ -112,5 +112,90 @@ section img{
     width: 100%;
 }
 
+section > section{/*----je cible le 1 er enfant <section> du parent <section>-----*/
+    overflow:hidden;/*----tout depassement du cadre de mon contenant sera caché-----*/
+    height:  820px;
+    text-align: center;
+}
+section p, section h2{
+    padding: 0 15%;
+}
+.pBloc-left, .pBloc-right{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.pBloc-left{
+    width: 40%;
+    overflow: visible;
+    position: relative;
+}
 
+.pBloc-right{
+    width: 60%;
+}
+
+#story img{
+    transform: scalex(-1);/*----mise à l'echelle sur l'axe horizontal-----*/
+    width: 125%;
+}
+
+#story div{
+    transform: scalex(-1);
+    height: 100%;
+    background-image: url('CeSoir_integration_2/img/asperge.jpg');
+    background-size: cover;
+}
+
+#soap .pBloc-left{
+    width: 30%;
+}
+
+#soap .pBloc-right{
+    width: 70%;
+}
+
+#soap{
+    height: 900px;
+}
 /*----section-----*/
+
+#drink{
+    height: 755px;
+}
+.txtRose{
+    color: #e56f6f;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;/*----sans appatement-----*/
+}
+#drink .pbloc-left img{
+    position: relative;
+    top: 70px;
+    z-index: -1;/*----position sur l'axe vertical gère l'empilement de 2 ou plusieurs éléments-----*/
+}
+/*----footer-----*/
+footer{
+    padding: 150px 0;
+    background-image: url('CeSoir_integration_2/img/pattern.jpg');
+}
+footer > div{
+    display: inline-block;
+}
+footer p{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-left: 78px;
+    font-size: 0.9em;
+}
+.social ul{
+    float: right;
+    margin-right: 50px;
+    padding-left: 65vw;
+}
+.social li{
+    display: inline-block;
+    text-align: right;
+    margin: 0 5px;
+    color: #e53f6f
+}

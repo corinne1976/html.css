@@ -1,0 +1,52 @@
+#conteneur{
+    width: 960px;
+     background: #30FFFE;
+      color: white;
+       margin: 0 auto;
+}
+header {
+     background: #E0C8AE;
+      height: 60px;
+        text-align: center;
+     }
+
+nav{
+    background: green;
+     height: 30px;
+      text-align: center;
+ }
+section{
+    height: 500px;
+     background: #B4CFA2;
+     margin: 10px;
+}
+
+.couleur_saumon{
+    border: 1px solid;
+     float: left;
+      height: 248px;
+       width: 468px;
+}
+
+.couleur_saumon{
+     background:#FFCE99;
+ }
+.couleur_bleuclair{
+    background: #56ADD8
+ }
+.couleur_bleufonce{
+     background: blue;
+  }
+
+.couleur_jaune{
+    background:yellow;
+
+  }
+footer{
+    background: grey;
+    height: 70px;
+     text-align: center;
+  }
+.clear{
+    clear: both;
+}
