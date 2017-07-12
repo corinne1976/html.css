@@ -1,0 +1,67 @@
+#conteneur{
+    width: 960px;/*largeur*/
+    background: linear-gradient(to left, #6F68AC,#310409);/*degrade a gauche*/
+    color: black;/*couleur pour la police*/
+    margin: 0 auto;/*centrage sur les largeurs de mon conteneur*/
+    text-align: center;/*centrage du texte*/
+    text-transform: uppercase;/*majuscules*/
+    font-family: 'Kurale', serif;/*police google font*/
+    font-size: 30px;/*taille police*/
+}
+header{
+    background: linear-gradient(to left, yellow,orange);
+    height: 60px;/*hauteur en pixel par rapport a la boite header */
+    line-height: 60px;/*centrage des ligne en hauteur */
+    }
+
+nav{
+    background: linear-gradient(to left, purple,silver);
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+}
+section{
+height: 500px;
+background: gray;
+margin: 10px;/*hauteur en pixel par rapport a la boite header */
+}
+.grand{/*les grand carrés */
+    border: 1px solid;/*bordure du carre mesure trait simple couleur noir par défault */
+    float: left;/*effet flottant à gauche pour les mettre cote a cote */
+/*pour dysplay retirer le float left et mettre dysplay inline bloc pour avoir le meme resultat*/
+    height: 248px;/*hauteur */
+    width: 468px;
+    font-size: 20px;
+}
+.petit{/*petit carrés interieur */
+    border: 1px solid;
+    float: left;/*pour dysplay retirer le float left et mettre dysplay inline bloc pour avoir le meme resultat*/
+    height: 122px;
+    line-height: 122px;
+    text-align: center;
+    width: 232px;
+    font-size: 20px;
+
+}
+.c1{/*couleur de l'emsemble du grand carre diviser en petit carré */
+    background: peachpuff;
+    background-image: url('CeSoir_integration_2/img/moule.jpg')/*insertion image a la place des couleur des couleurs en haut */
+}
+.c2{/*couleur de l'emsemble du grand carre diviser en petit carré */
+    background: #7abeb1;
+    background-image: url('CeSoir_integration_2/img/eggs.jpg')
+}
+.c3{/*couleur de l'emsemble du grand carre diviser en petit carré */
+    background: #415865;
+    background-image: url('CeSoir_integration_2/img/soap.jpg')
+}
+.c4{/*couleur de l'emsemble du grand carre diviser en petit carré */
+    background: #ffe1b3;
+    background-image: url('CeSoir_integration_2/img/asperge.jpg')
+}
+
+footer{
+    background: linear-gradient(to left, green,grey);
+    height: 70px;
+    line-height: 70px;
+}
